@@ -3,24 +3,17 @@ import { motion } from "framer-motion";
 const experiences = [
   {
     role: "Software Developer",
-    company: "Tech Company",
-    period: "2023 — Present",
+    company: "Newmeric Tech LLC",
+    period: "Dec 2025 — Present",
     description:
-      "Building scalable web applications and leading frontend architecture decisions. Collaborating with cross-functional teams to deliver user-centric products.",
+      "Working on Full Stack Application with Cloud Integration. Leveraging Amazon Web Services (AWS) and Full-Stack Development to build scalable solutions.",
   },
   {
-    role: "Junior Developer",
-    company: "Startup Inc.",
-    period: "2021 — 2023",
+    role: "Software Development Intern",
+    company: "VRDH Tech",
+    period: "Mar 2025 — Nov 2025",
     description:
-      "Developed and maintained multiple client-facing applications. Improved performance metrics by 40% through code optimization and modern tooling.",
-  },
-  {
-    role: "Intern",
-    company: "Digital Agency",
-    period: "2020 — 2021",
-    description:
-      "Assisted in building responsive websites and gained hands-on experience with React, Node.js, and cloud deployment workflows.",
+      "Developed Full Stack Softwares for different organisations with AI integrations and Web based apps using MERN stack technologies. Focused on Front-End Development and MERN Stack.",
   },
 ];
 
