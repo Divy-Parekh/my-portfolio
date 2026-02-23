@@ -32,8 +32,8 @@ const Navbar = () => {
       )}
     >
       <div className="max-w-6xl mx-auto px-6 h-16 flex items-center justify-between">
-        <a href="#" className="text-xl font-bold font-['Space_Grotesk'] text-gradient">
-          DP
+        <a href="#" className="text-xl font-bold font-['Space_Grotesk'] text-gradient flex items-center gap-1.5">
+          <span className="text-primary">&lt;</span>Divy<span className="text-primary">/&gt;</span>
         </a>
         <div className="hidden md:flex items-center gap-8">
           {links.map((l) => (
