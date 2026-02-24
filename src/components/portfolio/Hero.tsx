@@ -33,11 +33,12 @@ const Hero = () => {
             <Button asChild variant="outline" size="lg" className="rounded-full px-8">
               <a href="#contact">Get in Touch</a>
             </Button>
-            <Button asChild variant="outline" size="lg" className="rounded-full px-8">
-              <a href="/resume" target="_blank" rel="noopener noreferrer">
-                <Download size={18} className="mr-1" />
-                Resume
-              </a>
+            <Button variant="outline" size="lg" className="rounded-full px-8" onClick={() => {
+              const w = window.open("/resume", "_blank");
+              if (w) w.onload = () => w.print();
+            }}>
+              <Download size={18} className="mr-1" />
+              Resume
             </Button>
           </div>
           <div className="flex items-center justify-center gap-5">
