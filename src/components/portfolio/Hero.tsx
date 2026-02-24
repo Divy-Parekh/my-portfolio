@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-import { ArrowDown, Github, Linkedin, Mail } from "lucide-react";
+import { ArrowDown, Download, Github, Linkedin, Mail } from "lucide-react";
 import { Button } from "@/components/ui/button";
 
 const Hero = () => {
@@ -26,12 +26,18 @@ const Hero = () => {
             A passionate developer crafting elegant digital experiences.
             I turn ideas into impactful, user-centric solutions.
           </p>
-          <div className="flex items-center justify-center gap-4 mb-12">
+          <div className="flex items-center justify-center gap-4 mb-12 flex-wrap">
             <Button asChild size="lg" className="rounded-full px-8">
               <a href="#projects">View My Work</a>
             </Button>
             <Button asChild variant="outline" size="lg" className="rounded-full px-8">
               <a href="#contact">Get in Touch</a>
+            </Button>
+            <Button asChild variant="outline" size="lg" className="rounded-full px-8">
+              <a href="/resume" target="_blank" rel="noopener noreferrer">
+                <Download size={18} className="mr-1" />
+                Resume
+              </a>
             </Button>
           </div>
           <div className="flex items-center justify-center gap-5">
