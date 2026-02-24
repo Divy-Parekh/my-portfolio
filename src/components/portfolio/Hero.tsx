@@ -1,6 +1,7 @@
 import { motion } from "framer-motion";
-import { ArrowDown, Download, Github, Linkedin, Mail } from "lucide-react";
+import { ArrowDown, FileText, Github, Linkedin, Mail } from "lucide-react";
 import { Button } from "@/components/ui/button";
+import { Link } from "react-router-dom";
 
 const Hero = () => {
   return (
@@ -33,12 +34,11 @@ const Hero = () => {
             <Button asChild variant="outline" size="lg" className="rounded-full px-8">
               <a href="#contact">Get in Touch</a>
             </Button>
-            <Button variant="outline" size="lg" className="rounded-full px-8" onClick={() => {
-              const w = window.open("/resume", "_blank");
-              if (w) w.onload = () => w.print();
-            }}>
-              <Download size={18} className="mr-1" />
-              Resume
+            <Button asChild variant="outline" size="lg" className="rounded-full px-8">
+              <Link to="/resume">
+                <FileText size={18} className="mr-2" />
+                Resume
+              </Link>
             </Button>
           </div>
           <div className="flex items-center justify-center gap-5">
