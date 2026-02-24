@@ -102,7 +102,7 @@ const Resume = () => {
             <div>
               <div className="flex justify-between items-baseline">
                 <h3 className="font-bold">Software Development Intern,{" "}
-                  <span className="font-normal">VRDH Tech · Remote — West Virginia, USA</span>
+                  <span className="font-normal">VRDH Tech · Remote</span>
                 </h3>
                 <span className="text-xs text-gray-500 whitespace-nowrap">Mar 2025 — Nov 2025</span>
               </div>
